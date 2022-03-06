@@ -1,9 +1,13 @@
-function makeNegative(num) {
-  if (num > 0) {
-    return num * -1
-  } else if (num < 0) {
-    return num
-  } else if (num == 0) {
-    return 0
-  } // Code?
+function getCount(str) {
+  var vowelsCount = 0
+  const vowels = ['a', 'e', 'i', 'o', 'u']
+  for (let char of str.toLowerCase()) {
+    if (vowels.includes(char)) {
+      vowelsCount += 1
+    }
+  }
+
+  // enter your majic here
+
+  return vowelsCount
 }
