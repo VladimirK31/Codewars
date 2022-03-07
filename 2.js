@@ -8,3 +8,10 @@ function getCount(str) {
   }
   return vowelsCount
 }
+
+function invert(array) {
+  let result = array.map(function (elem) {
+    return elem * -1
+  })
+  return result
+}
