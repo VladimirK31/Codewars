@@ -4,3 +4,7 @@ var isAnagram = function (test, original) {
     original.toLowerCase().split('').sort().join()
   )
 }
+
+function stringToArray(string) {
+  return string.split(' ')
+}
