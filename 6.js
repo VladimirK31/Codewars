@@ -8,3 +8,7 @@ var isAnagram = function (test, original) {
 function stringToArray(string) {
   return string.split(' ')
 }
+
+function factorial(n) {
+  return n ? n * factorial(n - 1) : 1
+}
